@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Touch Nums Game</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body onload="init()">
+
+    <div class="header">
+        <h1>Touch Nums Game</h1>
+    </div>
+
+    <div class="game">
+        <p class="stopwatch">00:00:00</p>
+        <p>Next Number: <span class="next-num"></span></p>
+        <button onclick="setLevel(16)">Easy (16)</button>
+        <button onclick="setLevel(25)">Hard (25)</button>
+        <button onclick="setLevel(36)">Extreme! (36)</button>
+        <table>
+            <tbody class="board">
+            </tbody>
+        </table>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

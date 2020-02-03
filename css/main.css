@@ -1,0 +1,42 @@
+body {
+    margin: 0 auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+p {
+    font-weight: 800;
+}
+
+.stopwatch {
+    font-weight: 800;
+    font-size: 1.5rem;
+    margin: 2px;
+}
+
+
+
+.game button {
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 100px;
+}
+
+.td-clicked {
+    color: white;
+    background-color: tomato;
+}
+
+td {
+    background-color: rgba(223, 223, 60, 0.651);
+    border: none;
+    padding: 12px;
+    font-size: 3rem;
+    width: 3rem;
+    height: 3rem;
+}
+
+table {
+    margin: 0 auto;
+    border: 1px solid rgb(65,65,65);
+}
